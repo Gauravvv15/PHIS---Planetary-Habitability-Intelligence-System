@@ -91,7 +91,7 @@ PHIS/
 
 ### Clone Repository
 ```bash
-git clone https://github.com/yourusername/PHIS.git
+git clone https://github.com/Gauravvv15/PHIS---Planetary-Habitability-Intelligence-System.git
 cd PHIS
 ```
 
@@ -153,7 +153,6 @@ PHIS then:
 
 ---
 
-```markdown
 ---
 
 ## Example Output & Live Verification
@@ -178,7 +177,6 @@ The interactive inference framework accepts multi-parametric planetary telemetry
   <br>
   <em>Figure 1.2: Interactive validation processing a high-mass Jovian analog target scale, properly sorting structural planetary physical restrictions.</em>
 </p>
-```
 
 ```bash
 Planet Classification: HABITABLE
@@ -199,7 +197,7 @@ PHIS is not just a machine learning project — it represents a practical simula
 - Future integration with live NASA databases
 
 ---
-
+```
 ## Visualizations Included
 
 ### 1. Astrophysical Boundary Benchmarks
