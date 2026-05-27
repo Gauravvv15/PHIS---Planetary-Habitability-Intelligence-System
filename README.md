@@ -2,60 +2,60 @@
 ### Machine Learning Framework for Exoplanet Habitability Classification and Earth Similarity Prediction
 
 ## Overview
-[cite_start]PHIS (Planetary Habitability Intelligence System) is an astronomy-focused machine learning project designed to evaluate exoplanets for potential habitability and predict their Earth Similarity Index (ESI) using astrophysical, planetary, orbital, and stellar parameters[cite: 307].
+PHIS (Planetary Habitability Intelligence System) is an astronomy-focused machine learning project designed to evaluate exoplanets for potential habitability and predict their Earth Similarity Index (ESI) using astrophysical, planetary, orbital, and stellar parameters.
 
-[cite_start]By integrating NASA Exoplanet Archive data with Planetary Habitability Laboratory (PHL) datasets, PHIS creates a robust predictive framework capable of[cite: 308]:
+By integrating NASA Exoplanet Archive data with Planetary Habitability Laboratory (PHL) datasets, PHIS creates a robust predictive framework capable of:
 
-- [cite_start]Classifying whether an exoplanet is potentially habitable [cite: 309]
-- [cite_start]Predicting Earth Similarity Index (ESI) [cite: 309]
-- [cite_start]Engineering scientific features using astrophysical formulas [cite: 309]
-- [cite_start]Simulating real-world planetary habitability analysis [cite: 309]
+- Classifying whether an exoplanet is potentially habitable
+- Predicting Earth Similarity Index (ESI)
+- Engineering scientific features using astrophysical formulas
+- Simulating real-world planetary habitability analysis
 
-[cite_start]This project combines data science, astronomy, and machine learning into a portfolio-grade scientific system[cite: 309].
+This project combines data science, astronomy, and machine learning into a portfolio-grade scientific system.
 
 ---
 
 ## Key Features
 
 ### Data Integration
-- [cite_start]NASA Exoplanet Archive dataset [cite: 310]
-- [cite_start]Planetary Habitability Laboratory (PHL) dataset [cite: 310]
-- [cite_start]Cross-dataset feature merging using cleaned planetary identifiers [cite: 310]
+- NASA Exoplanet Archive dataset
+- Planetary Habitability Laboratory (PHL) dataset
+- Cross-dataset feature merging using cleaned planetary identifiers
 
 ### Advanced Feature Engineering
-[cite_start]PHIS calculates critical astrophysical features including[cite: 310]:
+PHIS calculates critical astrophysical features including:
 
-- [cite_start]Orbital Period (Kepler’s Third Law) [cite: 310]
-- [cite_start]Stellar Flux [cite: 310]
-- [cite_start]Equilibrium Temperature [cite: 310]
-- [cite_start]Periastron & Apastron distances [cite: 310]
-- [cite_start]Effective orbital distance [cite: 310]
-- [cite_start]Stellar surface gravity (log g) [cite: 310]
-- [cite_start]Conservative and optimistic habitable zone boundaries [cite: 310]
-- [cite_start]Abiogenesis zone estimation [cite: 310]
-- [cite_start]Tidal locking probability [cite: 311]
-- [cite_start]Planet type classification (Terran, SuperTerran, Neptunian, Jovian) [cite: 311]
+- Orbital Period (Kepler’s Third Law)
+- Stellar Flux
+- Equilibrium Temperature
+- Periastron & Apastron distances
+- Effective orbital distance
+- Stellar surface gravity (log g)
+- Conservative and optimistic habitable zone boundaries
+- Abiogenesis zone estimation
+- Tidal locking probability
+- Planet type classification (Terran, SuperTerran, Neptunian, Jovian)
 
 ### Machine Learning Models
 #### Habitability Classification:
-- [cite_start]XGBoost Classifier [cite: 312]
-- [cite_start]SMOTE for class imbalance correction [cite: 312]
-- [cite_start]High recall optimization for habitable planets [cite: 312]
+- XGBoost Classifier
+- SMOTE for class imbalance correction
+- High recall optimization for habitable planets
 
 #### ESI Prediction:
-- [cite_start]XGBoost Regressor [cite: 312]
-- [cite_start]Regression analysis for Earth similarity scoring [cite: 312]
+- XGBoost Regressor
+- Regression analysis for Earth similarity scoring
 
 ### Performance
 #### Classification:
-- [cite_start]Accuracy: ~99.6% [cite: 312]
-- [cite_start]High recall for habitable class [cite: 312]
-- [cite_start]Strong macro F1 score [cite: 312]
+- Accuracy: ~99.6%
+- High recall for habitable class
+- Strong macro F1 score
 
 #### Regression:
-- [cite_start]R² Score: ~0.94 [cite: 312]
-- [cite_start]Low MAE [cite: 312]
-- [cite_start]Reliable ESI prediction consistency [cite: 312]
+- R² Score: ~0.94
+- Low MAE
+- Reliable ESI prediction consistency
 
 ---
 
@@ -153,15 +153,39 @@ PHIS then:
 
 ---
 
-## Example Output
+```markdown
+---
+
+## Example Output & Live Verification
+
+### Pipeline Execution & Dynamic Classification
+The interactive inference framework accepts multi-parametric planetary telemetry vectors to output high-fidelity classifications alongside scientific astrobiological interpretations.
+
+<p align="center">
+  <img src="visuals/output_1.png" width="90%" alt="PHIS In Action - Habitable Prediction"/>
+  <br>
+  <em>Figure 1.0: Real-time CLI evaluation identifying a prospective habitable target candidate with 94.92% classification confidence and a calculated 0.732 Earth Similarity Index (ESI).</em>
+</p>
+
+<p align="center">
+  <img src="visuals/output_3.png" width="90%" alt="PHIS In Action - Hostile Core Prediction"/>
+  <br>
+  <em>Figure 1.1: Live model response correctly isolating a non-habitable exoplanetary target with extreme stellar properties at 99.98% confidence.</em>
+</p>
+
+<p align="center">
+  <img src="visuals/output_4.png" width="90%" alt="PHIS In Action - Dynamic Mass Check"/>
+  <br>
+  <em>Figure 1.2: Interactive validation processing a high-mass Jovian analog target scale, properly sorting structural planetary physical restrictions.</em>
+</p>
+```
+
 ```bash
 Planet Classification: HABITABLE
 Confidence Level: 94.92%
 
 Earth Similarity Index (ESI): 0.733
 Habitability Category: Moderately Earth-Like
-```
-
 ---
 
 ## Scientific Significance
@@ -177,11 +201,35 @@ PHIS is not just a machine learning project — it represents a practical simula
 ---
 
 ## Visualizations Included
-- Confusion Matrix
-- Feature Importance (Habitability)
-- Feature Importance (ESI)
-- Residual Error Analysis
-- EDA plots
+
+### 1. Astrophysical Boundary Benchmarks
+To evaluate the biological potential of predicted candidates, model inferences are framed alongside empirical solar luminosity and temperature distributions within stable liquid water zones.
+
+<p align="center">
+  <img src="visuals/Diagram_of_habitable_zone_rocky_exoplanets,_from_NASA_Exoplanet_Archive.jpg" width="85%" alt="NASA Exoplanet Archive Habitable Zone Mapping"/>
+  <br>
+  <em>Figure 2.0: Structural alignment of validated rocky exoplanetary arrays across conservative and optimistic orbital boundaries relative to their parent stars.</em>
+</p>
+
+### 2. Multi-Parametric Feature Importance Layouts
+Computed via gradient boosting estimators, these parameters highlight the deterministic feature dependencies separating planetary classification architectures from regression scoring arrays.
+
+<p align="center">
+  <img src="visuals/feature importance .png" width="48%" alt="Top ESI Features Matrix"/>
+  <img src="visuals/hab_features_importance.png" width="48%" alt="Top Habitability Features Matrix"/>
+  <br>
+  <em>Figure 3.0: Comparative feature weight profiles mapping dominant factors influencing structural Earth Similarity scaling calculations (left) versus strict categorical habitability thresholds (right).</em>
+</p>
+
+### 3. Model Accuracy & Linear Prediction Diagnostics
+Statistical performance metrics evaluate model variance, highlighting precision-recall behavior and error-margin density across target data streams.
+
+<p align="center">
+  <img src="visuals/confusion_matrix.png" width="48%" alt="Habitability Classification Confusion Matrix"/>
+  <img src="visuals/ESI_comparison.png" width="48%" alt="Actual vs Predicted ESI Regression Residuals"/>
+  <br>
+  <em>Figure 4.0: Left: Confusion matrix illustrating optimal classification performance under extreme class imbalances. Right: Regression plot validating prediction tracking accuracy against calculated ESI benchmarks.</em>
+</p>
 
 ---
 
