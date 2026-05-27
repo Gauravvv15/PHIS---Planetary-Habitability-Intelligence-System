@@ -2,60 +2,60 @@
 ### Machine Learning Framework for Exoplanet Habitability Classification and Earth Similarity Prediction
 
 ## Overview
-PHIS (Planetary Habitability Intelligence System) is an astronomy-focused machine learning project designed to evaluate exoplanets for potential habitability and predict their Earth Similarity Index (ESI) using astrophysical, planetary, orbital, and stellar parameters.
+[cite_start]PHIS (Planetary Habitability Intelligence System) is an astronomy-focused machine learning project designed to evaluate exoplanets for potential habitability and predict their Earth Similarity Index (ESI) using astrophysical, planetary, orbital, and stellar parameters[cite: 307].
 
-By integrating NASA Exoplanet Archive data with Planetary Habitability Laboratory (PHL) datasets, PHIS creates a robust predictive framework capable of:
+[cite_start]By integrating NASA Exoplanet Archive data with Planetary Habitability Laboratory (PHL) datasets, PHIS creates a robust predictive framework capable of[cite: 308]:
 
-- Classifying whether an exoplanet is potentially habitable
-- Predicting Earth Similarity Index (ESI)
-- Engineering scientific features using astrophysical formulas
-- Simulating real-world planetary habitability analysis
+- [cite_start]Classifying whether an exoplanet is potentially habitable [cite: 309]
+- [cite_start]Predicting Earth Similarity Index (ESI) [cite: 309]
+- [cite_start]Engineering scientific features using astrophysical formulas [cite: 309]
+- [cite_start]Simulating real-world planetary habitability analysis [cite: 309]
 
-This project combines data science, astronomy, and machine learning into a portfolio-grade scientific system.
+[cite_start]This project combines data science, astronomy, and machine learning into a portfolio-grade scientific system[cite: 309].
 
 ---
 
 ## Key Features
 
 ### Data Integration
-- NASA Exoplanet Archive dataset
-- Planetary Habitability Laboratory (PHL) dataset
-- Cross-dataset feature merging using cleaned planetary identifiers
+- [cite_start]NASA Exoplanet Archive dataset [cite: 310]
+- [cite_start]Planetary Habitability Laboratory (PHL) dataset [cite: 310]
+- [cite_start]Cross-dataset feature merging using cleaned planetary identifiers [cite: 310]
 
 ### Advanced Feature Engineering
-PHIS calculates critical astrophysical features including:
+[cite_start]PHIS calculates critical astrophysical features including[cite: 310]:
 
-- Orbital Period (Kepler’s Third Law)
-- Stellar Flux
-- Equilibrium Temperature
-- Periastron & Apastron distances
-- Effective orbital distance
-- Stellar surface gravity (log g)
-- Conservative and optimistic habitable zone boundaries
-- Abiogenesis zone estimation
-- Tidal locking probability
-- Planet type classification (Terran, SuperTerran, Neptunian, Jovian)
+- [cite_start]Orbital Period (Kepler’s Third Law) [cite: 310]
+- [cite_start]Stellar Flux [cite: 310]
+- [cite_start]Equilibrium Temperature [cite: 310]
+- [cite_start]Periastron & Apastron distances [cite: 310]
+- [cite_start]Effective orbital distance [cite: 310]
+- [cite_start]Stellar surface gravity (log g) [cite: 310]
+- [cite_start]Conservative and optimistic habitable zone boundaries [cite: 310]
+- [cite_start]Abiogenesis zone estimation [cite: 310]
+- [cite_start]Tidal locking probability [cite: 311]
+- [cite_start]Planet type classification (Terran, SuperTerran, Neptunian, Jovian) [cite: 311]
 
 ### Machine Learning Models
 #### Habitability Classification:
-- XGBoost Classifier
-- SMOTE for class imbalance correction
-- High recall optimization for habitable planets
+- [cite_start]XGBoost Classifier [cite: 312]
+- [cite_start]SMOTE for class imbalance correction [cite: 312]
+- [cite_start]High recall optimization for habitable planets [cite: 312]
 
 #### ESI Prediction:
-- XGBoost Regressor
-- Regression analysis for Earth similarity scoring
+- [cite_start]XGBoost Regressor [cite: 312]
+- [cite_start]Regression analysis for Earth similarity scoring [cite: 312]
 
 ### Performance
 #### Classification:
-- Accuracy: ~99.6%
-- High recall for habitable class
-- Strong macro F1 score
+- [cite_start]Accuracy: ~99.6% [cite: 312]
+- [cite_start]High recall for habitable class [cite: 312]
+- [cite_start]Strong macro F1 score [cite: 312]
 
 #### Regression:
-- R² Score: ~0.94
-- Low MAE
-- Reliable ESI prediction consistency
+- [cite_start]R² Score: ~0.94 [cite: 312]
+- [cite_start]Low MAE [cite: 312]
+- [cite_start]Reliable ESI prediction consistency [cite: 312]
 
 ---
 
@@ -85,7 +85,6 @@ PHIS/
 │── README.md
 └── .gitignore
 ```
-
 ---
 
 ## Installation

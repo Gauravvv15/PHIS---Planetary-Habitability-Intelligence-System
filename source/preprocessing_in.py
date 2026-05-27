@@ -143,6 +143,7 @@ def features_engineering(input_df):
         if col not in input_df.columns:
             input_df[col]=0
 
+    input_df=input_df[final_features]
 
     numerical_cols = input_df.select_dtypes(include=['number']).columns
 
